@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:product="clr-namespace:product" x:DataType="product:FirstPage"
+             x:Class="product.AlbumPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout >
+            
+            <StackLayout Orientation="Horizontal">
+            <Frame WidthRequest="90">
+            <Image Aspect="AspectFill" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+            </Frame>
+            
+            <Frame WidthRequest="90">
+                <Image Aspect="AspectFill" Source="https://www.jardiner-malin.fr/wp-content/uploads/2019/10/Dahlia-en-fleur.jpg"></Image>
+            </Frame>
+            
+            <Frame WidthRequest="90">
+            <Image Aspect="AspectFill" Source="https://ds1.static.rtbf.be/article/image/370xAuto/8/5/4/2d1a166b355e7d505226701f5bfed2ab-1436884160.jpg"></Image>
+            </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="84">
+                <Frame HorizontalOptions="FillAndExpand" WidthRequest="90">
+                    <Image WidthRequest="200"  Aspect="AspectFit" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+
+                <Frame HorizontalOptions="FillAndExpand" WidthRequest="90">
+                    <Image WidthRequest="200"  Aspect="AspectFit" Source="https://www.jardiner-malin.fr/wp-content/uploads/2019/10/Dahlia-en-fleur.jpg"></Image>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HorizontalOptions="FillAndExpand" WidthRequest="90">
+                    <Image  WidthRequest="200"  Aspect="AspectFill" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HorizontalOptions="FillAndExpand" WidthRequest="90">
+                    <Image  WidthRequest="200"  Aspect="AspectFit" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HorizontalOptions="FillAndExpand" WidthRequest="90">
+                    <Image  WidthRequest="200"  Aspect="Fill" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame WidthRequest="90">
+                    <Image  Aspect="AspectFill" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame WidthRequest="90">
+                    <Image Aspect="AspectFill" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+
+                <Frame WidthRequest="90">
+                    <Image Aspect="AspectFill" Source="https://www.jardiner-malin.fr/wp-content/uploads/2019/10/Dahlia-en-fleur.jpg"></Image>
+                </Frame>
+
+                <Frame WidthRequest="90">
+                    <Image Aspect="AspectFill" Source="https://ds1.static.rtbf.be/article/image/370xAuto/8/5/4/2d1a166b355e7d505226701f5bfed2ab-1436884160.jpg"></Image>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame WidthRequest="90">
+                    <Image Aspect="AspectFill" Source="https://www.sciencesetavenir.fr/assets/img/2020/07/09/cover-r4x3w1000-5f774742ea5ce-flowers-19830-1920.jpg"></Image>
+                </Frame>
+
+                <Frame WidthRequest="90">
+                    <Image Aspect="AspectFill" Source="https://www.jardiner-malin.fr/wp-content/uploads/2019/10/Dahlia-en-fleur.jpg"></Image>
+                </Frame>
+
+                <Frame WidthRequest="90">
+                    <Image Aspect="AspectFill" Source="https://ds1.static.rtbf.be/article/image/370xAuto/8/5/4/2d1a166b355e7d505226701f5bfed2ab-1436884160.jpg"></Image>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

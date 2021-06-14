@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:product="clr-namespace:product" x:DataType="product:FirstPage"
+             x:Class="product.MainPage">
+
+
+    <ScrollView>
+        
+        <StackLayout>
+        <Frame BackgroundColor="Black" CornerRadius="10" BorderColor="Red">
+            <StackLayout>
+                <Image Aspect="AspectFill" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"></Image>
+            </StackLayout>
+        </Frame>
+
+            <Label  TextColor="Red">User Name:</Label>
+            <Entry x:Name="TextUser" Placeholder="Enter user name"></Entry>
+
+            <Label TextColor="Red">Email:</Label>
+            <Entry Keyboard="Email" Placeholder="Enter Email"></Entry>
+
+            <Label TextColor="Red">Password:</Label>
+            <Entry IsPassword="True" Placeholder="Enter Password" MaxLength="10"></Entry>
+
+            <Label TextColor="Red">Age:</Label>
+            <Entry Keyboard="Numeric" Placeholder="Enter Age" MaxLength="3"></Entry>
+
+            <Label TextColor="Red">Phone:</Label>
+            <Editor Placeholder="Enter Age" Keyboard="Telephone"></Editor>
+
+            <Label TextColor="Red">Notes:</Label>
+            <Editor HeightRequest="100" Placeholder="Enter Notes"></Editor>
+
+            <Label TextColor="Red">Date:</Label>
+            <DatePicker x:Name="TstDate"></DatePicker>
+
+            <Label TextColor="Red">Time:</Label>
+            <TimePicker></TimePicker>
+            <Button  Clicked="Button_Clicked"  Text="save"/>
+    
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

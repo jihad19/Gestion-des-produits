@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:product="clr-namespace:product" x:DataType="product:FirstPage"
+             x:Class="product.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <Frame BackgroundColor="Bisque">
+                    <StackLayout>
+                        <Image Aspect="AspectFill" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"></Image>
+                    </StackLayout>
+                </Frame>
+
+                <Label TextColor="MediumOrchid" >Email:</Label>
+                <Entry Keyboard="Email" Placeholder="Enter Email"></Entry>
+
+                <Label TextColor="MediumOrchid">Password:</Label>
+                <Entry IsPassword="True" Placeholder="Enter Password" MaxLength="10"></Entry>
+                
+                <Button x:Name="Login"  Clicked="Login_Clicked" Text="Login"/>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

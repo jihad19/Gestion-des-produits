@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:product="clr-namespace:product" x:DataType="product:FirstPage"
+             x:Class="product.StartPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Button Text="Register" x:Name="RegisterPage" Clicked="RegisterPage_Clicked"></Button>
+            <Button Text="Login" x:Name="LoginPage" Clicked="LoginPage_Clicked"></Button>
+            <Button Text="Studio" x:Name="StudioPage" Clicked="StudioPage_Clicked"></Button>
+            <Button Text="Album" x:Name="AlbumPage" Clicked="AlbumPage_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

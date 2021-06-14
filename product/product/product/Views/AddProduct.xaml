@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="product.Views.AddProduct">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <StackLayout>
+                    <Label  TextColor="OliveDrab">Product Name</Label>
+                    <Entry x:Name="ProName" Placeholder="Enter user name"></Entry>
+
+                    <Label TextColor="OliveDrab">Product Price</Label>
+                    <Entry x:Name="ProPrice" Keyboard="Numeric" Placeholder="Enter Price" MaxLength="10"></Entry>
+
+                    <Label TextColor="OliveDrab">Description</Label>
+                    <Editor x:Name="Prodescrip" HeightRequest="100" ></Editor>
+                </StackLayout>
+            </Frame>
+
+            <Frame>
+                <StackLayout>
+                    <Button Text="Add" x:Name="AddP" Clicked="AddP_Clicked"></Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

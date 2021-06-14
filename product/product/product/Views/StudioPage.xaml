@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:product="clr-namespace:product" x:DataType="product:FirstPage"
+             x:Class="product.StudioPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Black" CornerRadius="10" BorderColor="Red">
+                <StackLayout>
+                    <Label TextColor="Orange" x:Name="Tasbe7">0</Label>
+                    <Entry BackgroundColor="Aqua" x:Name="num1"></Entry>
+                    <Entry BackgroundColor="Aqua" x:Name="num2"></Entry>
+
+                    <StackLayout Orientation="Horizontal">
+                           <Button x:Name="Plus" Text="+" Clicked="Plus_Clicked"></Button>
+                           <Button x:Name="Moins" Text="-" Clicked="Moins_Clicked"></Button>
+                           <Button x:Name="Fois" Text="*" Clicked="Fois_Clicked"></Button>
+                           <Button x:Name="Mult" Text="/" Clicked="Mult_Clicked"></Button>
+                    </StackLayout>
+                 </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
